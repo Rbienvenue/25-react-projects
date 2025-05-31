@@ -1,0 +1,45 @@
+.wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.acordion {
+    width: 550px;
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.item {
+    background: rgb(245, 160, 4);
+    padding: 0px 20px;
+    text-align: center;
+    width: 550px;
+    cursor: pointer;
+
+}
+
+.item:hover {
+    background: hsl(39, 97%, 47%);
+}
+
+.wraper button {
+    padding: 10px 20px;
+    background: rgb(245, 160, 4);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 70%;
+    cursor: pointer;
+}
+
+.wraper button:hover {
+    background: hsl(39, 97%, 47%);
+}
