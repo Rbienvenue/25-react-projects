@@ -1,0 +1,23 @@
+.container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
+        gap: 10px;
+}
+.button-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1 / -1;
+        margin-top: 10px;
+}
+.button-wrapper button {
+        border: none;
+        margin: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background: #1b1b1b;
+        color: white;
+        cursor: pointer;
+}
