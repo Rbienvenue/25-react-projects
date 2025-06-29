@@ -1,0 +1,13 @@
+.menu-container{
+    height: 100vh;
+    color: white;
+    background: #12e;
+    max-width: 300px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: space-around;
+
+}
